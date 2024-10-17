@@ -1,103 +1,163 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
-header{
-    position:fixed;
+
+header {
+    position: fixed;
     width: 100%;
-} 
-header>div{
+    border: 3px solid black;
+}
+
+header > div {
     padding: 15px 100px;
-    background-color:black;
+    background-color:rgb(85, 94, 83) ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    padding: 15px 100px;
-
 }
-header>nav{
+
+
+header > nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-family: Inter;
     font-weight: 400;
-    text-decoration:none;
 }
-a{  
-    margin:30px;
+nav>a{
     font-size: 20px;
-    text-decoration:none;
-    color: white;
 }
 
-#main{
-    height: 990px;
-    width:100%;
-    background-image: url(/Images/main.jpeg);
-    background-size: cover;
+a {
+    margin: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    vertical-align: center;
+    font-size: 65px;
+    font-family: 'Brush Script MT', 'Dancing Script', cursive;
+    font-weight: 700;
+    color: black;
+}
+
+
+#main {
+    height: 640px;
+    width: 100%;
+    background-image: url(/Images/m1.png);
+    background-size:cover;
     background-repeat: no-repeat;
+    border: 3px solid black;
+    text-align: center;
 }
-#space{
+#main>div>p{
+    font-size: 120px;
+    vertical-align: middle;
+    background-color:rgba(85, 94, 83, 0.771) ;
+    padding: 10px 30px;    
+    border-radius: 10px;
+
+}
+
+#sp{
+    height: 180px;
+    width: 400px
+}
+
+#main>div{
+    height: 180px;
+}
+
+#intro{
+    background-color:rgb(85, 94, 83);
+    height: 180px;
+    vertical-align: middle;
+    padding:5%;
+    border: 3px solid black;
+}
+
+#space {
     height: 90px;
+    padding:0;
 }
-#button_space{
-    height:600px;
-}
-#button{
-    margin: 200px;
-    font-size: 20px;
+
+#center{
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(105, 117, 101);
+    border: 3px solid black;
+    color:black;
+    padding: 20px;
+ }
+
+ #hd1{
+    font-size:30px;
+ }
+
+ p{
+    font-size:16px;
+ }
+
+#button {
+    margin: 20px;
+    font-size: 18px;
     padding: 10px 30px;
     color: black;
     border-radius: 10px;
-    background:rgb(255,255,255,0.5);
+    background: rgb(60, 61, 55);
     border: 3px solid black;
 }
-#plot{    
-    color:white;
-    padding: 30px;
-    background-image: url(/Images/pattern.jpeg);
 
+body{
+    background-image: url(/Images/pattern.jpg);
+    background-repeat: repeat;
 }
-#plot>*{
-    padding:50px 100px;
-    height:100%;
-    font-size: 17px;
-    background-color:black;
-    margin:auto;
-    width:600px;
-    vertical-align: middle;
-}
-.char{
-    text-align: center;
+
+article {
+    color: black;
     padding: 30px;
-    background-image: url(/Images/pattern2.jpeg);
-    color:white
 }
-.char>*{
-    height: 600px;;
+
+h2{
+    text-align: center;
+    font-size:40px;
+}
+
+h3{
+    
+    font-size:28px;
+}
+
+article > div {
     padding: 50px 100px;
-    display: inline-block;
-    background-color:black;
-    width:450px;
-    font-size:20px;
+    height: 100%;
+    font-size: 16px;
+    margin: auto;
+    width: 600px;
     vertical-align: middle;
+    background: rgb(105, 117, 101);
+    border: 3px solid black;
 }
-.space1{
-    height:837px;
-    width:100%;
-    background-image: url(/Images/main2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+footer>p{
+    font-size: 21px;
 }
-footer{
-    background-color: black;
-    color:white;
-    font-size: 20px;
+
+footer {
+    background-color: rgb(105, 117, 101);
+    padding:10px;
+    color: black;
+    font-size: 21px;
     text-align: center;
     height: 35px;
-    vertical-align: middle;
+    vertical-align:middle;
+    border: 2px solid black;
 }
-
